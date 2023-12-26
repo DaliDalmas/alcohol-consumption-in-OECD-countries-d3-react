@@ -39,7 +39,8 @@ const BarChart = ({data, width, height}) => {
             .attr('y', d => yScale(d.value))
             .attr('width', xScale.bandwidth())
             .attr('height', d => innerHeight - yScale(d.value))
-            .attr('fill', 'steelblue')
+            .attr('fill', '#e6842a')
+            .attr('stroke', '#137b80')
         
         // add x axis
         g.append('g')

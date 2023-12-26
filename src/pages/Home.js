@@ -21,7 +21,7 @@ export default function Home({data}){
 
     return(
         <div>
-            <h1>alcohol consumption in 2019</h1>
+            <h1>alcohol consumption per capita in 2019</h1>
             <BarChart data={df} width={1300} height={600}/>
         </div>
     )
